@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" />
+
+    <title>REGISTRO</title>
+</head>
+<body>
+    <form action="" method="get">
+        
+         
+            <section class="form-register">
+                <center><h2>INGRESE SUS DATOS</h2></center>
+                    <input class="Controls" type="text" name="nombre" id="nombre" placeholder=" Ingrese sus nombres "style="font-size: medium; " autofocus required />
+                    <input class="Controls" type="text" name="apellido" id="apellido" placeholder=" Ingrese sus apellidos "style="font-size: medium;" autofocus required />
+                    <input class="Controls"  type="text" name="cedula" id="cedula" placeholder=" Ingrese su número de cédula"  style="font-size: medium;" autofocus required /><br>
+                    <input class="Controls"  type="email" name="email" id="correo" placeholder="correoelectronico@gmail.com" style="font-size: medium;" autofocus required />
+                    <input class="Controls"  type="tel" name="telefono" id="telefono" placeholder=" Ejemplo: 0985220813" style="font-size: medium;"  required />
+                    <input class="Controls"  type="text" name="ciudad" id="ciudad" placeholder="Ingrese el lugar de residencia" style="font-size: medium;" required />
+                    <input class="Controls"  type="text" name="direccion" id="direccion" placeholder=" Ingrese su dirección"style="font-size: medium " required />  <br>
+                    
+                    <div class="Controls">
+                        <h5>Escoja</h5>
+                        <input  type="radio" name="sexo"  value="Masculino" id="val"/>
+                        <label for="masculino">Masculino </label>
+                        <input type="radio" name="sexo"  value="Femenino"id="val"/>
+                        <label for="femenino">Femenino</label>
+                        <input type="radio" name="sexo"  value="Otro" id="val"/>
+                        <label for="otro">Otros</label>
+                    </div>
+            
+                <div class="Controls">
+                    <h5>Escoja su estado civil</h5>
+                    <input type="radio" name="estado" id="Est" value="Casado"/>
+                    <label for="casado">Casado(a)</label>
+                    <input type="radio" name="estado" id="Est"value="Soltero"/>
+                    <label for="soltero">Soltero(a)</label>
+                    <input type="radio" name="estado" id="Est" value="Otro"/>
+                    <label for="otro1">Otros</label>
+
+                </div>
+
+                <input class="botons" type="submit" value="Registrar Datos">
+
+            </section>
+        </body>
+</html>
